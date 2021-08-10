@@ -277,32 +277,3 @@ Add [TOC] whereever you want to insert catalogue
     subject B-->subject A: respond
   
     ```
-
-
-
-<form id="form1" name="form1" method="get" action="mailto:printfabcd@163.com">
-  <label for="textfield">主题 </label> 
-  <p> 
-    <input type="text" name="subject" id="subject" value="dfd" /> 
-</p> 
-  <p> 
-    <label for="textarea">内容： </label> 
-    <textarea name="body" rows="8" id="body" value="ddddd"> </textarea> 
-    <label for="Submit">发送 </label> 
-    <input type="submit" name="Submit" value="提交" id="Submit" /> 
-  </p> 
-</form>
-
-
-<div class="col-8 col-12-small">
-								<form method="post" action="mailto:Y.Han202105@gmail.com">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" id="Submit"/></li>
-								</ul>
-							</div>
