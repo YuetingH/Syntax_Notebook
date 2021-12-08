@@ -255,10 +255,10 @@ To make the project more organized, the list of files contained in this project 
   
   ```julia
   # Define list type
-  #mutable struct LinkedList
-  #    data::KeyValuePair
-  #    next::Union{LinkedList,Nothing}
-  #end
+  mutable struct LinkedList
+      data::KeyValuePair
+      next::Union{LinkedList,Nothing}
+  end
 
   # Prepend data to list
   function prepend(list::Union{LinkedList,Nothing}, data::KeyValuePair) 
@@ -522,7 +522,7 @@ This module contains data structure Key Value, Linked List and Fenwick Tree
     end
     ```
 
-- functions/LinkedList.jl
+- LinkedList.jl
 
     ```julia
     # Define list type
@@ -564,7 +564,7 @@ This module contains data structure Key Value, Linked List and Fenwick Tree
     end
     ```
 
-- functions/FenwickTree.jl
+- FenwickTree.jl
     ```julia
     # Function to build a Fenwick tree from an array of KeyValuePair objects containing list of real numbers
     function buildFTree(dataArray::Array{KeyValuePair, 1})
