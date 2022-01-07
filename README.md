@@ -14,7 +14,7 @@ This notebook documents sytax of programming language using Markdown.
 
 ### **Julia**
 
-This file contains instructure about **Julia REPL**, **Environment Setting**, **Project Structure**, **Using Packages** and **Data Structure**.
+This file contains instructions about **Julia REPL**, **Environment Setting**, **Project Structure**, **Using Packages** and **Data Structure**.
 
 It works well for **Julia 1.0.5, 1.5.1, 1.6.3** on **Ubuntu 20.04**.
 
